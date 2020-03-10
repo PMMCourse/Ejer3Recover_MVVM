@@ -1,8 +1,13 @@
-# Ejer5MVVM
+# Ejer3 recuperación MVVM
 
 Ejercicio 5. 
 
 
-En este ejercicio debemos implementar un sistema de MVVM. Las especificaciones del ejercicio han sido enviadas por correo. 
+Crea una pequeña aplicación con la arquitectura MVVM siguiendo las indicaciones del patrón.
 
-Cuando hagais el ejercicio, introducir esas especificaciones dentro del fichero App.xaml comentado. Gracias!
+Esta aplicación puede ser de lo que quieras, pero deben tener las siguientes condiciones
+
+- Al menos dos pantallas creadas.
+- Se debe integrar el BaseViewModel
+- Debe haber al menos un servicio creado, usando el patrón Locator.
+- Debe existir al menos dos modelos y que el servicio use uno de ellos al menos.
