@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ejer5MVVM.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,9 @@ namespace Ejer5MVVM
         public MainWindow()
         {
             InitializeComponent();
+
+            var conectarVM = new MainViewModel();
+            DataContext = conectarVM;
         }
     }
 }
