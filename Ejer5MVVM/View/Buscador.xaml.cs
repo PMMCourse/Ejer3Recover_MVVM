@@ -1,5 +1,4 @@
 ﻿using Ejer5MVVM.Model;
-using Ejer5MVVM.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,23 +11,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Ejer5MVVM.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Buscador.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Buscador : Window
     {
-        
-        public MainWindow()
+        List<Palabra> palabra;
+
+
+        public Buscador(List<Palabra> p)
         {
             InitializeComponent();
-
-            var conectarVM = new MainViewModel();
-            DataContext = conectarVM;
+            this.palabra = p;
         }
+
     }
 }
