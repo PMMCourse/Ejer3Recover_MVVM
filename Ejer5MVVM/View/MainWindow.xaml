@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:Ejer5MVVM"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
     <Grid>
         <StackPanel Orientation="Vertical">
             <Label Margin="10" FontSize="24" Height="50" Width="310">Introducir Persona a la lista</Label>
