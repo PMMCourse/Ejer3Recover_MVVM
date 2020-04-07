@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:Ejer5MVVM"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+         //esta intentando copiar el patron de MyFirstMVVM pero no sabia lo qe estaba haciendo
     </Application.Resources>
 </Application>
