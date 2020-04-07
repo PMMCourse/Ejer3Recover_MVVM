@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Ejer5MVVM
+namespace Ejer5MVVM.Views
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para DeletePerson.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class DeletePerson : Window
     {
-        public MainWindow()
+        public DeletePerson()
         {
             InitializeComponent();
         }
