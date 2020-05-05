@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CatalogoTV.Vista.TelevisorView" x:Name="_TituloPagina" Title="Detalles">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="_Marca" Text=""></Label>
+            <Label x:Name="_Modelo" Text=""></Label>
+            <Label x:Name="_Tamaño" Text=""></Label>
+            <Label x:Name="_Resolucion" Text=""></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
